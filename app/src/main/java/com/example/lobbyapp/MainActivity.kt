@@ -21,7 +21,7 @@ import androidx.core.content.ContextCompat
 class MainActivity : ComponentActivity() {
 
     private lateinit var webView: WebView
-    private val targetUrl = "https://cip.urban-digital.co.il:8002/3556" // Замените на нужный URL
+    private val targetUrl = "https://google.com" // Замените на нужный URL
     private val refreshIntervalMillis = 60 * 60 * 1000L // 1 час
 
     // Разрешения, которые необходимо запросить
